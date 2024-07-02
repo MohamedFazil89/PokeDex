@@ -18,10 +18,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.nmohammedfazil790.PokeDeXx"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4d95dbda-b43c-431e-8a16-aff827ec55fa"
+      }
+    },
+    "owner": "nmohammedfazil790"
   }
 }
