@@ -4,7 +4,7 @@ import { createStackNavigator, CardStyleInterpolators  } from "@react-navigation
 // importing components
 import Auth from "./Auth";
 import StartPoke from "./Components/StarterPoke";
-import Home from "./Components/HomeCom/Home";
+import Home from "./Components/Home";
 
 
 const Stack = createStackNavigator();

@@ -38,7 +38,7 @@ export default function  StartPoke(){
         <SafeAreaView style={styles.container}>
             <Text style={ styles.Heading}>Welcome Trainer!!</Text>
             <View style={styles.Sub}>
-                <Text style={styles.Sub2}>Choose Your Stater Pokemon for your Journey</Text>
+                <Text style={styles.Sub2}>Choose Your Partner for your Journey</Text>
                 <View style={styles.Pokemons}>
                 { select == 1 || select == null  ? (<TouchableOpacity style={[styles.Button, { backgroundColor: 'lightgreen', transform: [{ translateY: Position.y}]}]} onPress={handleClick(1,"Pikachu")}>
 
